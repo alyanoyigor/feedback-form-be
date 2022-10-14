@@ -11,7 +11,7 @@ async function main() {
       origin:
         process.env.NODE_ENV === 'dev'
           ? 'http://localhost:3000'
-          : 'https://alyanoyigor.github.io/feedback-form-be',
+          : 'https://alyanoyigor.github.io/feedback-form-app',
       credentials: true,
     });
 
